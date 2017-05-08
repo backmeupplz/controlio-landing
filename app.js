@@ -4,16 +4,10 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var i18n = require('i18n');
+var i18n = require('i18n-express');
+var request = require('request');
 
 var app = express();
-
-i18n.configure({
-  locales: ['en', 'ru'],
-  directory: [__dirname, 'locales'].join('/'),
-  defaultLocale: 'en',
-  queryParameter: 'lang'
-});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -26,18 +20,25 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(i18n.init);
+app.use(i18n({
+  translationsPath: path.join(__dirname, 'locales'),
+  siteLangs: ["en","ru"]
+}));
 
 app.get('/', function(req, res, next) {
-  res.render('index', {});
+  request('https://api.controlio.co/discount', function(err, response, body) {
+    console.log(body);
+    var json = JSON.parse(body);
+    res.render('index', { discount: json.uses });
+  });
 });
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  res.render('index', {});
-  // var err = new Error('Not Found');
-  // err.status = 404;
-  // next(err);
+  request('https://api.controlio.co/discount', function(err, response, body) {
+    var json = JSON.parse(body);
+    res.render('index', { discount: json.uses });
+  });
 });
 
 // error handlers

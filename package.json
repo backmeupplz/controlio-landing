@@ -12,7 +12,9 @@
     "ejs": "~2.3.3",
     "express": "~4.13.1",
     "i18n": "^0.8.2",
+    "i18n-express": "^1.1.2",
     "morgan": "~1.6.1",
+    "request": "^2.81.0",
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {

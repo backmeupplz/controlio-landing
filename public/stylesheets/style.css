@@ -22,14 +22,14 @@ html, body {
   background-color: #fff;
   overflow-x: hidden;
 }
-a {
+/*a {
   font: "Roboto" 14px;
   text-decoration: none;
 }
 a:hover {
   font: "Roboto" 14px;
   text-decoration: none;
-}
+}*/
 
 /** Header **/
 #header-wrapper {
@@ -56,8 +56,9 @@ a:hover {
 }
 #header-wrapper p img {
   width: 150px;
+  padding: 2px;
 }
-#header-wrapper .control a {
+/*#header-wrapper .control a {
   background: url(../images/unfold-more.svg) no-repeat bottom center;
   color: #fff;
   padding: 0px 0px 23px;
@@ -82,7 +83,7 @@ a:hover {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
   cursor: pointer;
-}
+}*/
 .img-center {
     margin:0 auto;
 }
@@ -129,6 +130,9 @@ a:hover {
 }
 
 /** Footer **/
+.discount {
+  color: #03c386;
+}
 footer {
   background-color: #F4F6F9;
 }
@@ -139,7 +143,7 @@ footer h2 {
 }
 footer h3 {
   color: #585D6C;
-  font-size: 24px;
+  font-size: 20px;
 }
 footer hr {
   border:0;
@@ -173,7 +177,7 @@ footer ul.right-list li {
   background: url(../images/check-circle.svg) no-repeat center right;
   padding: 8px 40px;
 }
-footer .control a {
+/*footer .control a {
   color: #fff;
   padding: 10px 70px;
   margin: 30px 0 50px;
@@ -211,7 +215,7 @@ footer .control a:before {
   background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
   /* W3C */
-  -webkit-transition-duration: 0.3s;
+  /*-webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform, opacity;
   transition-property: transform, opacity;
@@ -234,13 +238,18 @@ footer .control a:hover,
 footer .control a:focus,
 footer .control a:active {
   color: #fff;
-}
+}*/
 footer p {
   font-weight: 400;
   font-size: 12px;
   color: #A3ADBB;
   padding: 10px 0 30px;
   margin: 0;
+}
+footer a {
+  font-weight: 400;
+  font-size: 12px;
+  color: #A3ADBB;
 }
 
 /** Responsive Stuff **/

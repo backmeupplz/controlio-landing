@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="528px" height="154px" viewBox="0 0 528 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>app-store copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app-store-copy-2">
+            <g id="Page-1" fill-rule="nonzero" fill="#2B2D32">
+                <g id="Button---App-Store">
+                    <rect id="Button" x="0" y="0" width="528" height="154" rx="19.2000003"></rect>
+                </g>
+            </g>
+            <text id="APPLE-APP-STORE" font-family="Roboto-Bold, Roboto" font-size="30" font-weight="bold" fill="#FFFFFF">
+                <tspan x="191" y="108">APPLE APP STORE</tspan>
+            </text>
+            <path d="M99.3936481,45.4747018 C102.122774,41.9792603 104.196308,37.0451371 103.444483,32 C98.9846551,32.3075389 93.7684913,35.1383964 90.7235989,38.8273623 C87.9598891,42.1757852 85.6773476,47.1429125 86.5660051,51.9705222 C91.4333219,52.1205411 96.4705514,49.2191746 99.3936481,45.4747018 Z M123.507692,92.8926903 C121.552946,97.2147362 120.617676,99.1424796 118.100565,102.960462 C114.591044,108.292135 109.64253,114.928974 103.512147,114.987481 C98.0614137,115.036987 96.6630186,111.448533 89.2680651,111.489039 C81.8746153,111.531044 80.3303662,115.048989 74.8811366,114.999483 C68.7492495,114.943975 64.0593634,108.949218 60.5483393,103.619045 C50.7295011,88.7116622 49.7040115,71.2164527 55.7592122,61.9152782 C60.0626602,55.3054433 66.8501388,51.4379549 73.2331355,51.4379549 C79.7334169,51.4379549 83.8188355,54.9919038 89.191379,54.9919038 C94.4045355,54.9919038 97.5802454,51.4319541 105.093987,51.4319541 C110.773276,51.4319541 116.790885,54.5178438 121.079296,59.8495172 C107.029186,67.5304872 109.311727,87.5415145 123.507692,92.8926903 Z" id="Icon---Apple" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <text id="Скачать-с-Copy" font-family="Roboto-Light, Roboto" font-size="30" font-weight="300" fill="#FFFFFF">
+                <tspan x="253" y="60">Скачать с</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

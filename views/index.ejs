@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title><%= __('title') %></title>
+  <title>Controlio</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,21 +30,20 @@
     <div class="container main-block">
       <div class="col-sm-6">
         <img src="/images/controlio-logo.svg" alt="Controlio" class="logo-img center-block">
-        <h2><u>Controlio</u> is a ridiculously
-simple status report system</h2>
-        <p>Let’s say you are a small busines owner – either B2B or B2C; and you have around 10 clients a month who needs to be constantly updated about their order. Instead of waiting on them to take action do something proactive. Everybody will love it!</p>
-        <p>Use controlio to update clients with photos, statuses and posts about their order. It’s as simple as posting a photo on Facebook! Clients will instantly get updates to their phones with the whole purchase history.</p>
+        <h2><u>Controlio</u> <%= texts.position %></h2>
+        <p><%= texts.slogan1 %></p>
+        <p><%= texts.slogan2 %></p>
         <p>
           <a href="https://itunes.apple.com/ca/app/controlio/id997857994?mt=8">
-            <img src="/images/app-store.svg" alt="">
+            <img src="/images/<%= texts.appstore %>" alt="">
           </a>
           <a href="https://play.google.com/store/apps/details?id=ru.adonixis.controlio">
-            <img src="/images/play-store.svg" alt="">
+            <img src="/images/<%= texts.playstore %>" alt="">
           </a>
         </p>
       </div>
       <div class="col-sm-6 text-center hidden-xs">
-        <img src="/images/phone-preview.png" alt="" class="phone-img">
+        <img src="/images/<%= texts.img %>" alt="" class="phone-img">
       </div>
     </div>
 
@@ -65,33 +64,35 @@ simple status report system</h2>
 
   <footer>
     <div class="container">
-      <h2 class="text-center">Why using controlio?</h2>
+      <h3 class="text-center"><%= texts.promo1 %> <u><%= texts.promo2 %></u> <%= texts.promo3 %> <%= discount %> <%= texts.promo4 %></h3>
+      <hr>
+      <h2 class="text-center"><%= texts.why %></h2>
       <div class="eye hidden-xs"></div>
       <div class="col-sm-6 right-border">
-        <h3 class="text-center business">Business</h3>
+        <h3 class="text-center business"><%= texts.business %></h3>
         <hr>
         <ul class="list left-list text-left">
-          <li>Keep clients up-to-date</li>
-          <li>Quickly send status reports</li>
-          <li>Privately post pictures to clients</li>
+          <li><%= texts.business1 %></li>
+          <li><%= texts.business2 %></li>
+          <li><%= texts.business3 %></li>
         </ul>
       </div>
       <div class="col-sm-6">
-        <h3 class="text-center client">Client</h3>
+        <h3 class="text-center client"><%= texts.client %></h3>
         <hr>
         <ul class="list right-list text-right">
-          <li>Receive purchase updates</li>
-          <li>Get pictures of you order</li>
-          <li>Track contractors' work</li>
+          <li><%= texts.client1 %></li>
+          <li><%= texts.client2 %></li>
+          <li><%= texts.client3 %></li>
         </ul>
       </div>
       <div class="clearfix"></div>
       <hr>
-      <p class="text-center">&copy; 2016 Controlio (ridiculously simple status report system)</p>
+      <p class="text-center">&copy; 2017 Controlio (<a href="/?clang=en">English</a>, <a href="/?clang=ru">Русский</a>)</p>
     </div>
   </footer>
   
-  <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-latest.js"></script>
   <script>
   // soft scroll
   $(function() {
@@ -113,7 +114,7 @@ simple status report system</h2>
     var language = window.navigator.userLanguage || window.navigator.language;
     console.log('Browser language: ', language);
   })();
-  </script>
+  </script> -->
 
 </body>
 </html>

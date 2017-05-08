@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="528px" height="154px" viewBox="0 0 528 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>app-store copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app-store-copy-3">
+            <g id="Page-1" fill-rule="nonzero" fill="#2B2D32">
+                <g id="Button---App-Store">
+                    <rect id="Button" x="0" y="0" width="528" height="154" rx="19.2000003"></rect>
+                </g>
+            </g>
+            <g id="googleplay" transform="translate(35.000000, 29.000000)" stroke-width="10" stroke="#2B2D32" fill="#FFFFFF" fill-rule="nonzero">
+                <g id="Layer_1">
+                    <path d="M54.35492,27.9390844 L4.73493778,0.834235556 C2.14939556,0.834235556 0.0537377778,2.92399111 0.0537377778,5.50473778 L0.0537377778,90.4952622 C0.0537377778,93.0774844 2.14976444,95.1653956 4.73493778,95.1653956 C4.73493778,95.1653956 31.9438133,80.2113778 54.35492,67.94656 L54.35492,27.9390844 Z" id="Mask"></path>
+                    <path d="M64.4270622,33.4418 L83.3824178,43.7976178 C91.8115289,48.3375333 83.3824178,52.2001689 83.3824178,52.2001689 C83.3824178,51.9397333 4.73456889,95.1653956 4.73456889,95.1653956 C4.58258667,95.1653956 4.43355556,95.1587556 4.28452444,95.1436311 L64.4270622,33.4418 Z" id="Mask_1_"></path>
+                    <path d="M4.73788889,0.83608 L83.3824178,43.7979867 C91.8115289,48.3379022 83.3824178,52.2005378 83.3824178,52.2005378 C83.3824178,52.1208578 75.4693822,56.4136178 64.6605689,62.3151022 L4.73788889,0.83608 Z" id="Mask_2_"></path>
+                    <path d="M64.5251867,33.4971333 L83.3824178,43.7979867 C91.8115289,48.3379022 83.3824178,52.2005378 83.3824178,52.2005378 C83.3824178,52.1208578 75.4693822,56.4136178 64.6605689,62.3151022 L50.5476178,47.8387956 L64.5251867,33.4971333 Z" id="Mask_3_"></path>
+                </g>
+            </g>
+            <text id="Скачать-с" font-family="Roboto-Light, Roboto" font-size="30" font-weight="300" fill="#FFFFFF">
+                <tspan x="253" y="60">Скачать с</tspan>
+            </text>
+            <text id="GOOGLE-PLAY-MARKET" font-family="Roboto-Bold, Roboto" font-size="30" font-weight="bold" fill="#FFFFFF">
+                <tspan x="159" y="108">GOOGLE PLAY MARKET</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

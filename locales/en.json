@@ -1,4 +1,24 @@
 {
   "title": "Controlio",
-  "locale": "ru"
+  "position": "is the ultimate solution for communication between business and clients",
+  "locale": "ru",
+  "slogan": "is the ultimate solution for communication between business and clients",
+  "slogan1": "Most of the time clients care only about the results — they don't want to puzzle over the internal business processes. So why bother them?",
+  "slogan2": "Use Controlio to provide the clients with only the updates they need: status, progress, photos and quick updates. It's as easy as posting a photo on Facebook!",
+  "promo1": "First 1000 users who use promo code",
+  "promo2": "FRIEND",
+  "promo3": "will get 100% discount for 6 months. Hurry! Only",
+  "promo4": "left.",
+  "why": "Why using Controlio?",
+  "business": "Business",
+  "business1": "Keep clients up-to-date",
+  "business2": "Manage all clients in one place",
+  "business3": "Assign the managers to specific projects",
+  "client": "Client",
+  "client1": "Receive updates on your phone",
+  "client2": "Track all the contractors in one place",
+  "client3": "One touch to see the project progress",
+  "img": "phone-preview.png",
+  "playstore": "play-store.svg",
+  "appstore": "app-store.svg"
 }
