@@ -22,14 +22,14 @@ html, body {
   background-color: #fff;
   overflow-x: hidden;
 }
-/*a {
+a {
   font: "Roboto" 14px;
   text-decoration: none;
 }
 a:hover {
   font: "Roboto" 14px;
   text-decoration: none;
-}*/
+}
 
 /** Header **/
 #header-wrapper {
