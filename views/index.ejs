@@ -34,10 +34,10 @@
         <p><%= texts.slogan1 %></p>
         <p><%= texts.slogan2 %></p>
         <p>
-          <a href="https://itunes.apple.com/ca/app/controlio/id997857994?mt=8">
+          <a href="https://itunes.apple.com/ca/app/controlio/id997857994?mt=8" onClick="ga('send', 'event', 'app_store_button', 'click', 'ios');">English</a>, <a href="/?clang=ru" onClick="ga('send', 'event', 'language_change', 'click', 'russian');>
             <img src="/images/<%= texts.appstore %>" alt="">
           </a>
-          <a href="https://play.google.com/store/apps/details?id=ru.adonixis.controlio">
+          <a href="https://play.google.com/store/apps/details?id=ru.adonixis.controlio" onClick="ga('send', 'event', 'play_store_button', 'click', 'android');">
             <img src="/images/<%= texts.playstore %>" alt="">
           </a>
         </p>
@@ -88,7 +88,7 @@
       </div>
       <div class="clearfix"></div>
       <hr>
-      <p class="text-center">&copy; 2017 Controlio (<a href="/?clang=en">English</a>, <a href="/?clang=ru">Русский</a>)</p>
+      <p class="text-center">&copy; 2017 Controlio (<a href="/?clang=en" onClick="ga('send', 'event', 'language_change', 'click', 'english');">English</a>, <a href="/?clang=ru" onClick="ga('send', 'event', 'language_change', 'click', 'russian');">Русский</a>)</p>
     </div>
   </footer>
   
