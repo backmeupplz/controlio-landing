@@ -4,7 +4,7 @@ Controlio is an extremely simple status report system. It's like twitter but int
 
 This is a repository for the landing page for controlio.co that no longer exists.
 ## List of repositories
-* [Server](https://https://github.com/backmeupplz/controlio-server) — backend code for Controlio
+* [Server](https://github.com/backmeupplz/controlio-server) — backend code for Controlio
 * [Landing](https://github.com/backmeupplz/controlio-landing) — landing front page of the former controlio.co website
 * [Web client](https://github.com/backmeupplz/controlio-web) — frontend of the web app connected to the backend
 * [iOS client](https://github.com/backmeupplz/controlio-ios) — iOS client app connected to the backend 
